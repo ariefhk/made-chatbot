@@ -1,0 +1,820 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Assalamualaikum wr wb",
+        "Assalamualaikum",
+        "assalamualaikum wr wb",
+        "samlekom",
+        "P"
+      ],
+      "responses": [
+        "Waalaikumsalam wr wb, ini Made, Made bakal bantu kamu tentang informasi MSIB ;)",
+        "Waalaikumsalam wr wb, ini Made, Ada yang bisa dibantu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "dilan_cepmek",
+      "patterns": ["kamu nanya?", "kamu nanyae", "kamu nanyaa", "kamu nanyae"],
+      "responses": [
+        "Kamu bertanya-tanya... :(",
+        "Jangan gitu dongg nanti made marah nihh :(",
+        "Ahh jadi maless :("
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ga_asik",
+      "patterns": [
+        "Ga asik ah",
+        "Kamu gajelas",
+        "Gajelas infonya",
+        "Ga jelas",
+        "Kok ane kamu",
+        "Informasinya Aneh",
+        "Aneh",
+        "Bot gajelas",
+        "G jelas",
+        "G jls"
+      ],
+      "responses": [
+        "Namanya juga Made tu ChatBot, ya maafin aja ya kalo ada yang kurang jelas, \nTips dari Made biar jelas, nanya nya yang spesifik ya, misal: 'informasi tambahan syarat daftar msib' \n Gituu :)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ketawa",
+      "patterns": [
+        "Hehe",
+        "Haha",
+        "Hihi",
+        "Hh",
+        "Wkwk",
+        "Hha",
+        "Hahaha",
+        "hh",
+        "Hhh"
+      ],
+      "responses": [
+        "Apa nihh yang lucu, kok ketawa? :(",
+        "Made jadi takutt tiba-tiba kamu ketawa :(",
+        "Masih mau nanya lagi ga nihh, kok malah ketawa :("
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bad_words",
+      "patterns": [
+        "Anjing",
+        "Kontol",
+        "Memek",
+        "Asu",
+        "Goblok",
+        "Tolol",
+        "Kamu Anjing banget",
+        "Kamu Goblok banget",
+        "Moron",
+        "Kamu kaya Asu",
+        "Bodoh"
+      ],
+      "responses": [
+        "Kasar gituu, kamu kan mahasiswa cerdas kann?",
+        "Kok chat kamu kayak sampah gitu?",
+        "Semoga Chat ini ga ngegambarin Kamu yaa :D"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "developer_chatbot",
+      "patterns": [
+        "Developer",
+        "Pencipta kamu siapa?",
+        "Yang ciptain kamu siapa?",
+        "Siapa yang buat Kamu?"
+      ],
+      "responses": [
+        "Namanya Arief Rachman Hakim, Peserta SIB Batch 3 di Bisa Ai \nInstagramnya: @arief.dev \nYoutubenya: arief_dev \nGithubnya: ariefhk \nKatanya suruh kepoin aja :D"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hallo",
+        "hai",
+        "halo",
+        "hei",
+        "hi",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis"
+      ],
+      "responses": [
+        "Hai! Made di sini. Mau tau informasi tentang MSIB Kann?",
+        "Halo! Aku Made, salam kenal ya! Mau tau tentang MSIB, kan?",
+        "Hello! Ini Aku Made. Lagi kepo tentang MSIB ya?",
+        "Hai Hai! Aku Made, Kaliatannya lagi mau daftar MSIB yaa?",
+        "Ehh Hii! salam kenal yaa, Aku Made, Aku bakal bantuin kamu tentang Program MSIB!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ok_answer",
+      "patterns": ["Okayy", "ok", "okey", "okay"],
+      "responses": [
+        "Sipsipp, semoga kamu dapet mitra yang kamu tuju ya <3",
+        "Semoga Berhasil yaaa <3"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [" ", ""],
+      "responses": [
+        "Sorry, made ga paham maksud kamu :(, bisa chat yg lebih spesifik gitu?",
+        "Waduhh, made ga paham nih, bisa chat lagi yang lebih spesifik?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "nanyain_kabar",
+      "patterns": [
+        "Gimana kabarnya?",
+        "Bagaimana kabarmu made?",
+        "Bagaimana kabar mu?"
+      ],
+      "responses": ["Baikk, makasih dah nanya made yaa <3"],
+      "context": [""]
+    },
+    {
+      "tag": "minta_maaf",
+      "patterns": ["Maaf yaa", "Maaf", "Maaf made udah kasar"],
+      "responses": ["Okayy, Made maaafin, Jangan kaya gitu lagi yaa :)"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Jumpa Lagi yaa!",
+        "Sampai jumpa",
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Terimakasih",
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati Made Membantu :)",
+        "Sama sama, Semangat yaa!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "program_msib",
+      "patterns": [
+        "Macam-macam aktivitas msib",
+        "Ada apa saja di msib?",
+        "Progam MSIB ada apa saja?",
+        "Info MSIB"
+      ],
+      "responses": [
+        "MSIB itu singkatan dari Magang dan Studi Independen Bersertifikat, Kamu mau milih yang mana nih?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "program_studi_independen",
+      "patterns": [
+        "Mau nanya tentang SIB",
+        "Mau nanya tentang Studi Independen",
+        "Studi Independen Bersertifikat"
+      ],
+      "responses": [
+        "SIB yaa, Mau nanya tentang pendaftaran, seleksi & penerimaan, pelaksanaan program atau pendanaan nih?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "pendaftaran_msib",
+      "patterns": [
+        "Bagaimana cara mendaftar msib",
+        "Cara mendaftar msib",
+        "cara daftar msib",
+        "Daftar SIB",
+        "daftar studi independen"
+      ],
+      "responses": [
+        "Kamu harus ada akun kampus merdeka dulu, lalu pilih Studi Independen atau Magang sesuai sama minat kamu dan klik cari mitra . \nPilih mitranya, terus submit Dokumen-dokumen yang dibutuhin mitra, habis itu tinggal nunggu deh jawaban dari mitra kamu. \nCoba kamu tanya lagi dengan 'informasi tambahan cara daftar...' nanti Made kasih link lengkapnya ;)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "informasi_tambahan_daftar_msib",
+      "patterns": [
+        "Informasi tambahan cara daftar",
+        "link cara daftar MSIB",
+        "Tutorial cara daftar msib",
+        "Informasi tambahan daftar MSIB"
+      ],
+      "responses": [
+        "Untuk Informasi cara daftar MSIB yang lengkap, Kamu bisa ke link ini yaa: https://pusatinformasi.kampusmerdeka.kemdikbud.go.id/hc/en-us/articles/4417215860633-Mencari-Kegiatan-dan-Mendaftar-Program-MSIB"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "magang",
+      "patterns": [
+        "Mau nanya tentang magang",
+        "Mau nanya tentang magang merdeka",
+        "Magang",
+        "Magang Merdeka"
+      ],
+      "responses": [
+        "Mau magang yaa, Mau nanya tentang pendaftaran, seleksi & penerimaan, pelaksanaan program atau pendanaan nih?"
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "seleksi_penerimaan",
+      "patterns": [
+        "Mau nanya tentang seleksi penerimaannya seperti apa?",
+        "Seleksi dan penerimaan",
+        "Apa yang harus saya lakukan setelah mendaftar MSIB?"
+      ],
+      "responses": [
+        "Setelah dokumen dan data diri kamu sudah disubmit ke website Kampus Merdeka, nanti dari pihak akan menyeleksi secara langsung, apakah kamu layak melaksanakan kegiatan magang atau Studi Independen di mitra tersebut. Jadi stay tune aja yaa, Semoga Kamu dapet apa yang Kamu cari <3"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "dokumen_msib",
+      "patterns": [
+        "Dokumen apa saja yang harus dikumpulkan?",
+        "Apakah ada yang harus dikumpulkan?",
+        "Dokumen yang wajib dikumpulkan?"
+      ],
+      "responses": [
+        "Untuk dokumen nanti kamu disuruh upload CV, Transkrip nilai, Surat rekomendasi universitas, Surat Pernyataan Tanggungjawab Mutlak (SPTJM), Foto atau scan dari KTP Anda, Sertifikat pengalaman organisasi (opsional)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cv",
+      "patterns": [
+        "Apakah ada syarat CV? ",
+        "Bagaimana format CV yang benar ?",
+        "Format CV?"
+      ],
+      "responses": [
+        "Untuk format CV Tidak ada format baku/pasti yaa, Jadi, Mahasiswa dapat membuat dengan kreatifitas masing-masing."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "foto_ktp",
+      "patterns": [
+        "Apakah ada syarat untuk foto ktp? ",
+        "Bagaimana foto ktp yang benar ?",
+        "Foto ktp ?"
+      ],
+      "responses": [
+        "Untuk foto KTP, fotonya yang penting jelasnya memuat informasi data penduduk dari mahasiswanya yaa."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "sertifikat_organisasi",
+      "patterns": [
+        "Apakah Sertifikat Organisasi bisa digantikan dengan sertifikat prestasi dan surat kegiatan aktif organisasi?",
+        "Bagaimana format sertikat organisasi yang bener?",
+        "Format sertifikat organisasi?"
+      ],
+      "responses": ["Tidak ada format baku yaa untuk Sertifikat Organisasi."],
+      "context": [""]
+    },
+    {
+      "tag": "transkrip_nilai",
+      "patterns": [
+        "Transkrip nilai harus bagaimana?",
+        "Bagaimana transkrip nilai?",
+        "Transkrip Nilai?"
+      ],
+      "responses": [
+        "Mahasiswa boleh mengunggah transkrip nilai dari semester sebelumnya, ketika transkrip semester berjalan sudah ada silakan untuk memperbarui dokumen tersebut pada menu “Lengkapi Dokumen” di akun Mahasiswa"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ubah_dokumen",
+      "patterns": [
+        "Apakah jika mahasiswa mengubah dokumen transkrip nilai yang ada di halaman profil, maka dokumen dokumen yang diterima perusahaan juga otomatis terganti?",
+        "Mengubah dokumen apakah perusahaan dapat berganti?",
+        "Kalau saya edit dokumen apakah mitra jadi berubah?",
+        "Apakah tidak apa-apa mengubah transkrip nilai?"
+      ],
+      "responses": [
+        "Menurut made, Kemungkinan bisa terganti. Namun, untuk memastikan, mahasiswa disarankan untuk menanyakan langsung ke perusahaannya yaa."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "surat_rekomendasi",
+      "patterns": [
+        "Bagaimana cara Mahasiswa mendapatkan surat rekomendasi?",
+        "Bagaimana cara mendapatkan surat rekomendasi",
+        "Surat rekomendasi"
+      ],
+      "responses": [
+        "Silakan Mahasiswa bisa menghubungi koordinator/sekretariat dari kampus masing-masing yaa."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "sptjm",
+      "patterns": [
+        "Bagaimana cara Mahasiswa mendapatkan sptjm",
+        "Bagaimana cara Mahasiswa mendapatkan SPTJM",
+        "SPTJM"
+      ],
+      "responses": [
+        "Silakan Mahasiswa bisa menghubungi koordinator/sekretariat dari kampus masing-masing yaa."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bidang_studi_daftar_msib",
+      "patterns": [
+        "Apakah pilihan studi harus sesuai dengan bidang/jurusan Mahasiswa?",
+        "Apakah harus sesuai jurusan?",
+        "Haruskan satu jurusan ketika mendaftar?",
+        "Satu jurusan"
+      ],
+      "responses": [
+        "Tidak, kegiatan Studi Independen Bersertifikat dapat dilakukan dalam bentuk kerja kelompok lintas disiplin keilmuan selama memenuhi persyaratan dari program yang ditawarkan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "bidikmisi_mendaftar",
+      "patterns": [
+        "Apakah penerima kip boleh daftar?",
+        "Apakah penerima bidikmisi boleh daftar?",
+        "Apakah boleh mahasiswa bidikmisi mendaftar ?",
+        "Apakah boleh mahasiswa yang mendapat bantuan pemerintah mendaftar MSIB?",
+        "Apakah mahasiswa penerima beasiswa pemerintah, boleh daftar MSIB?",
+        "Mahasiswa penerima beasiswa pemerintah",
+        "Mahasiswa kip",
+        "Mahasiswa bidik misi",
+        "kip",
+        "bidik misi"
+      ],
+      "responses": [
+        "Mahasiswa penerima beasiswa dari pemerintah boleh mengikuti program MSIB. Namun apabila Mahasiswa diterima, khususnya pada program Magang, maka bantuan biaya hidup yang diterima Mahasiswa adalah selisih dari beasiswa pemerintah.\nContohnya, Beasiswa yang diterima tiap bulan sejumlah Rp800.000 dan bantuan biaya hidup dari MSIB sejumlah Rp1.200.000 per bulan. Maka, bantuan biaya hidup MSIB yang diterima sejumlah Rp400.000 per bulan (selisih beasiswa dan bantuan biaya hidup MSIB)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "s2_daftar_msib",
+      "patterns": [
+        "Apakah Mahasiswa S2 dapat mengikuti program ini?",
+        "Apakah Mahasiswa S2 dapat mengikuti program MSIB?",
+        "Mahasiswa S2",
+        "Bolehkan Mahasiswa S2 ikutan program ini",
+        "Bolehkan Mahasiswa S2 mengikuti program ini?"
+      ],
+      "responses": [
+        "Tidak bisa, program ini hanya untuk mahasiswa Mahasiswa D3/D4/S1"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ikatan_dinas_daftar_msib",
+      "patterns": [
+        "Apakah Mahasiswa dari perguruan tinggi ikatan dinas boleh mengikuti program ini?",
+        "Apakah Ikatan dinas boleh daftar?",
+        "Apakah Ikatan dinas boleh daftar MSIB",
+        "Ikatan dinas",
+        "Bolehkan Ikatan Dinas ikutan program ini",
+        "Bolehkan Ikatan Dinas mengikuti program ini?"
+      ],
+      "responses": [
+        "Mohon maaf tidak boleh. Program ini hanya dapat diikuti oleh semua Mahasiswa dari perguruan tinggi negeri dan swasta di Indonesia yang berada di bawah naungan Kemendikbudristek"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "iktan_dinas_terlanjur_daftar_msib",
+      "patterns": [
+        "Bagaimana jika ada Mahasiswa dari perguruan tinggi ikatan dinas yang sudah terlanjur mendaftar dan sudah diterima oleh Mitra?",
+        "Bagaimana ikatan dinas yang terdaftar mitra?",
+        "Bagaimana ikatan dinas yang terdaftar?",
+        "Bagaimana ikatan dinas yang diterima?",
+        "Ikatan dinas yang diterima mitra",
+        "Saya ikatan dinas kok di di kampus merdeka tertanda diterima?"
+      ],
+      "responses": [
+        "Tetap tidak boleh yaa,Pihak Mitra akan menginformasikan kepada Mahasiswa bahwa program hanya dapat diikuti oleh perguruan tinggi di bawah naungan Kemendikbudristek."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "banyak_milih_mitra",
+      "patterns": [
+        "Apakah Mahasiswa boleh mendaftar lebih dari satu lowongan?",
+        "Bolehkah banyak mitra?",
+        "Bisa daftar banyak mitra?",
+        "Daftar banyak mitra?"
+      ],
+      "responses": [
+        "Mahasiswa dapat mendaftar lebih dari satu lowongan, namun nantinya Mahasiswa hanya dapat menerima satu tawaran dari Mitra dan mengikuti satu program saja."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "semester_tua",
+      "patterns": [
+        "Apakah mahasiswa semester 9 boleh mengikuti program magang?",
+        "Semester tua boleh daftar?",
+        "Apakah semester 8 boleh daftar?",
+        "Apakah semester 9 boleh daftar?",
+        "Semester 8",
+        "Semester 9"
+      ],
+      "responses": [
+        "Boleh. Namun harus dipastikan sisa SKS Mahasiswa memenuhi syarat 20 SKS yaa, dan Mahasiswa tidak boleh  yudisium terlebih dahulu selama masa program berjalan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "data_diri",
+      "patterns": [
+        "Mau nanya tentang Data diri?",
+        "Dimana tempat mengecek data diri?",
+        "Dimana tempat mengecek data mahasiswa?",
+        "Studi Independen Bersertifikat",
+        "Data diri",
+        "Data mahasiswa",
+        "Cara melihat data pribadi"
+      ],
+      "responses": [
+        "Kamu bisa mengecek data diri kamu di situs PDDikti https://pddikti.kemdikbud.go.id/"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "tidak_ada_data_diri",
+      "patterns": [
+        "Apa yang harus saya lakukan jika data diri tidak ditemukan di PDDikti?",
+        "data diri tidak ada di PDDikti",
+        "Apa yang harus dilakuin jika ga ada data diri PDDikti?",
+        "Jika data diri tidak ada di PDDikti?"
+      ],
+      "responses": [
+        "Sebelumnya pastikan perguruan tinggi Kamu berada di bawah naungan Kemendikbudristek. Jika sudah memastikan hal tersebut, silakan hubungi sekretariat perguruan tinggi Kamu agar dibantu menambahkan data diri Kamu ke dalam sistem PDDikti."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "pengajuan_data_diri",
+      "patterns": [
+        "Berapa lama pengajuan perubahan data ke PDDikti?",
+        "Berapa lama pengajuan data diri diproses?",
+        "Lama pengajuan data diri?",
+        "Berapa lama jika kita mengubah data diri?"
+      ],
+      "responses": [
+        "Pengajuan perubahan data di PDDikti diproses selama 14 sampai 30 hari kerja."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "data_diri_salah_ktp",
+      "patterns": [
+        "Bagaimana jika data yang tercantum di PDDIKTI tidak sesuai dengan KTP saya?",
+        "Data diri tidak sesuai dengan ktp?",
+        "Apa yang harus saya lakukan jika data diri tidak sesuai dengan ktp?",
+        "Data mahasiswa tidak sesuai dengan ktp",
+        "Bagaimana cara mengubah data diri?",
+        "Data diri saya salah?"
+      ],
+      "responses": [
+        "Data Mahasiswa yang tercatat di PDDIKTI mengacu pada data yang diberikan oleh pihak kampus. Jadi, Mahasiswa dapat melakukan beberapa tindakan berikut: \n1. Cek kembali nama, tanggal lahir, dan NIK yang tercatat pada sekretariat kampus. Pastikan sudah sesuai dengan KTP. \n2. Apabila ada kesalahan, segera hubungi sekretariat kampus untuk membantu penyesuaian data di PDDIKTI. \n3. Mohon tunggu 14 sampai 30 hari kerja, kemudian lakukan 'log out' dan 'log in' untuk dapat melihat penyesuaian data tersebut pada laman Kampus Merdeka."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "data_diri_beda_di_website",
+      "patterns": [
+        "Bagaimana jika data diri saya berbeda dari PDDikti dengan website Kampus Merdeka?",
+        "Kenapa data diri saya berbeda dengan di website kampus merdeka",
+        "Kok data diri beda dengan yang di website",
+        "Kenapa data diri bisa berbeda di website"
+      ],
+      "responses": [
+        "Saran dari Made... Segera hubungi tim Helpdesk MSIB melalui tombol Hubungi Bantuan pada laman ini. Mohon untuk menyertai data diri Anda yang benar, serta tangkapan layar (screenshot) data Anda di PDDikti dan data Anda di akun MBKM."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ubah_data_diri",
+      "patterns": [
+        "Apakah Mahasiswa bisa mengubah data pribadi di platform?",
+        "Apakah mahasiswa bisa mengubah data pribadi oleh diri sendiri di website?",
+        "Mengubah data diri secara mandiri di website?",
+        "Saya ingin mengubah data diri"
+      ],
+      "responses": [
+        "Data Pribadi tidak bisa diubah karena autogenerate sesuai dengan data yang ada di PDDikti. Data pribadi tersebut yaitu nama lengkap, jenis kelamin, tempat & tanggal lahir, NIK, dan nama universitas. Oleh sebab itu, jika ingin ada perubahan data pribadi, Mahasiswa harus mengajukan request perubahan data ke pihak kampus untuk diproses ke PDDikti."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kementrian_kampus",
+      "patterns": [
+        "Bagaimana cara mengetahui perguruan tinggi saya di bawah Kemendikbudristek atau di bawah Kementerian lain?",
+        "Bagaimana cara agar tahu kampus kita bisa mengikuti MSIB?",
+        "Cara tahu kampus kita bisa mengikuti MSIB?",
+        "Cara tahu perguruan tinggi kita bisa mengikuti MSIB?"
+      ],
+      "responses": [
+        "Pertama, kamu buka https://pddikti.kemdikbud.go.id/ \nTerus cari nama Kampus kamu. \nSelanjutnya, Cari kode Perguruan Tinggi (PT). \nJika kode PT diawali angka 00-16, maka perguruan tinggi Kamu berada di bawah naungan Kemendikbudristek dan bisa mengikuti MSIB. \nContoh: 071097, 101038, 113002. \nNamun, jika kode PT diawali angka selain 00-16, maka perguruan tinggi Kamu bukan berada di bawah naungan Kemendikbudristek sehingga tidak dapat mengikuti MSIB. \nContoh: 202015, 213551, 413001."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ciri_diterima",
+      "patterns": [
+        "Gimana ciri bahwa aku diterima MSIB?",
+        "Ciri diterima program MSIB?",
+        "Bagaimana caranya kita mengetahui status diterima?",
+        "Bagaimana caranya kita menerima tawaran MSIB?"
+      ],
+      "responses": [
+        "Setelah Mahasiswa dinyatakan lolos oleh Mitra, maka status Mahasiswa akan berubah menjadi 'Lolos'. Mahasiswa memiliki waktu 3 (tiga) hari untuk mengambil dan mengonfirmasi kegiatan tersebut melalui platform MBKM. \nCoba kamu tanya lagi dengan 'informasi tambahan diterima...' nanti Made kasih link lengkapnya ;)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "informasi_tambahan_ciri_diterima",
+      "patterns": [
+        "Informasi tambahan tentang ciri diterima program MSIB?",
+        "Informasi tambahan diterima program MSIB?",
+        "Informasi tambahan menerima tawaran MSIB?"
+      ],
+      "responses": [
+        "Untuk Informasi ciri diterima dan cara menerima tawaran MSIB, Kamu bisa ke link ini yaa: https://pusatinformasi.kampusmerdeka.kemdikbud.go.id/hc/en-us/articles/4417249598745-Cara-Menerima-Tawaran-Magang-atau-Studi-Independen"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "survei_kebhinnekaan",
+      "patterns": [
+        "Apakah mengisi survei kebhinekaan itu wajib?",
+        "Wajib ga si mengisi survei kebhinekaan?",
+        "Hukumnya gimana mengisi survei kebhinekaan?"
+      ],
+      "responses": [
+        "Kalau dari peraturan, Mahasiswa peserta MSIB  yang mendapatkan undangan untuk melakukan Survei Kebhinekaan, itu wajib untuk mengikuti Survei tersebut. Bagi mahasiswa yang telah mendapatkan undangan namun tidak mengisi survei maka akan secara otomatis dianggap mengundurkan diri dari program,"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "pelaksanaan_program",
+      "patterns": [
+        "Apa yang harus saya lakukan setelah diterima mitra?",
+        "Mau nanya tentang pelaksanaan programmnya seperti apa ya?",
+        "Bagaimana setelah diterima mitra?"
+      ],
+      "responses": [
+        "Setelah diterima, Kamu tinggal nunggu aja program yang akan dijalankan oleh Mitra. Kamu pasti dihubungin kokk. Namun, jangan lupa nanti mengisi Logbook harian sama mingguan, dan diakhir juga bakal ada Laporan akhir hasil aktivitas MSIB kamu :)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "mengisi_logbook",
+      "patterns": [
+        "Kapan Mahasiswa sudah bisa mengisi logbook/laporan?",
+        "Hukum mengisi logbook itu apa ?",
+        "Apakah wajib mengisi logbook?"
+      ],
+      "responses": [
+        "Mahasiswa wajib mengisi logbook/laporan sejak hari pertama mengikuti program."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ketentuan_logbook",
+      "patterns": [
+        "Apakah ada ketentuan jumlah kata karakter dalam menulis logbook atau laporan?",
+        "Berapa panjang kata yang harus ada dilogbook atau laporan?",
+        "Apa saja ketentuan pengisian log book?"
+      ],
+      "responses": [
+        "Made saranin untuk Logbook/Laporan Harian diisi dengan 20-50 kata, sedangkan Logbook/Laporan Mingguan diisi dengan 100-150 kata. Logbook/laporan dapat dibuat dengan paragraf atau berbentuk poin-poin penting."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "penilaian_logbook",
+      "patterns": [
+        "Siapakah yang akan memberi penilaian terhadap logbook mahasiswa?",
+        "Siapa yang menilai logbook saya?",
+        "Bagaimana cara logbook dinilai?"
+      ],
+      "responses": [
+        "Pihak yang akan menilai Mahasiswa adalah Mentor yang disediakan oleh Mitra. Namun, dosen pembimbing dan koordinator masing-masing kampus juga akan mendapat akses untuk memantau hasil laporan Mahasiswa."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "melihat_logbook",
+      "patterns": ["Bagaimana cara Mentor melihat laporan Mahasiswa?"],
+      "responses": [
+        "Mentor memiliki platform sendiri, di mana pada platform tersebut Mentor dapat mengecek semua laporan Mahasiswanya dan memberi penilaian (revisi atau approved)"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "sabtu_minggu_logbook",
+      "patterns": [
+        "Bagaimana jika Mahasiswa ingin mengisi logbook atau laporan untuk hari Sabtu atau Minggu jika ada kegiatan?",
+        "Bagaimana jika saya mau mengisi laporan di sabtu?",
+        "Bagaimana jika saya mau mengisi laporan di minggu?"
+      ],
+      "responses": [
+        "Kegiatan hari Sabtu dan Minggu dapat dilampirkan pada laporan mingguan dengan menambahkan deskripsi pada kolom free text yang disediakan"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "website_error_logbook",
+      "patterns": [
+        "Bagaimana jika tidak bisa mengisi logbook atau laporan karena website error?",
+        "Bagaimana saya mau mengisi logbook ketika website error?"
+      ],
+      "responses": [
+        "Untuk saat ini, Mahasiswa masih bisa mengisi logbook/laporan di hari berikutnya ketika website sudah dapat diakses. Namun jika masalah berkelanjutan, silakan Mahasiswa melaporkan lewat tombol Pusat Bantuan di akun Kampus Merdeka/MBKM."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "resubmit_logbook",
+      "patterns": [
+        "Apakah logbook atau laporan yang sudah diisi dan di-submit bisa diubah sebelum dicek oleh mentor?",
+        "Apakah logbook yang sudah disubmit bisa edit lagi?"
+      ],
+      "responses": [
+        "Tidak bisa, pastikan untuk mengecek kembali sebelum mengirim laporan"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kesalahan_logbook",
+      "patterns": [
+        "Bagaimana jika terdapat kesalahan dalam pengisian logbook?",
+        "Apa yang harus saya lakukan ketika salah dalam pengisian logbook?",
+        "Kesalahan dalam pengisian logbook",
+        "Kapan mentor memberikan catatan revisi?"
+      ],
+      "responses": [
+        "Kamu bisa konfirmasi ke mentor dari mitra kamu. \nUntuk waktunya biasanya ketika kamu sedang mentoring bersama mitra."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "tidak_diapprove_logbook",
+      "patterns": [
+        "Bagaimana jika laporan Mahasiswa tidak di approve oleh Mentor?",
+        "Bagaimana jika laporan saya tidak disetujui?"
+      ],
+      "responses": [
+        "Laporan bisa saja tidak di-approve jika dianggap tidak sesuai oleh Mentor. Namun tenang saja, Mentor akan memberikan catatan revisi dan Mahasiswa bisa segera melakukan revisi sesuai arahan Mentor"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "reset_logbook",
+      "patterns": [
+        "Bagaimana cara merubah periode kegiatan yang sudah terlanjur dimasukkan?",
+        "Bagaimana cara reset periode kegiatan yang sudah dimasukkan?"
+      ],
+      "responses": [
+        "Apabila ingin mengajukan perubahan periode kegiatan, silakan hubungi kami melalui tombol Pusat Bantuan."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "pendanaan_msib",
+      "patterns": [
+        "Siapa saja yang mendapatkan pendanaan?",
+        "Bagaimana caranya agar mendapatkan pendanaan?",
+        "Apakah msib bisa mendapatkan uang?",
+        "Apakah ikutan msib dapat uang?"
+      ],
+      "responses": [
+        "Bantuan biaya hidup pada MSIB hanya dikhususkan kepada mahasiswa Magang yang terdaftar pada Mitra yang mengajukan pendanaan BBH ke tim MSIB."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "persyaratan_pendanaan",
+      "patterns": [
+        "Bagaimana mencairkan pendanaan msib?",
+        "Bagaimana mencairkan bantuan biaya hidup?",
+        "Apa saja syarat agar uang pendanaan bisa cair"
+      ],
+      "responses": [
+        "Sebelumnya pastikan Kamu sudah melakukan verifikasi rekening bank di platform MBKM yaa. \nSelanjutnya, kamu diwajibkan mengumpulkan dua dokumen, yaitu: \n1. Surat Rekomendasi (SR), Surat Pernyataan Tanggung Jawab Mutlak Mahasiswa (SPTJM), Letter of Acceptance (LoA), Surat Keputusan (SK). \n2. Logbook kegiatan harian dan laporan mingguan yang sudah dilengkapi Mahasiswa dan disetujui oleh Mentor."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "ketentuan_pendanaan",
+      "patterns": [
+        "Apakah ada ketentuan dalam logbook untuk pencairan uang?",
+        "Bagaimana ketentuan logbook agar uang bisa dicairkan?"
+      ],
+      "responses": [
+        "Mahasiswa harus mengunggah logbook kegiatan harian dan laporan mingguan yang telah disetujui oleh Mentor platform MBKM dengan catatan mengisi minimal 80% laporan harian tiap bulannya, dan semua laporan tersebut minimal sudah di-approve oleh Mentor"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kebijakan_pengunduran",
+      "patterns": [
+        "Apakah ada pengembalian uang ketika mengundurkan diri?",
+        "Apa yang terjadi jika mengundurkan diri ketika sudah menerima bantuan dana?"
+      ],
+      "responses": [
+        "Mahasiswa diharuskan untuk mengembalikan dana bantuan yang telah diberikan apabila kewajiban yang harus dipenuhi oleh mahasiswa belum dilaksanakan. Kami akan menginformasikan lebih lanjut terkait mekanisme pengembalian dana tersebut melalui artikel ini atau kanal informasi resmi MSIB lainnya."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "membagi_dana",
+      "patterns": [
+        "Apa yang terjadi jika saya sudah mendapatkan beasiswa dari program pemerintah lainnya?",
+        "Apakah ada pengurangan jika saya sudah menerima beasiswa sebelumnya?"
+      ],
+      "responses": [
+        "Sesuai dengan peraturan pemerintah, Mahasiswa peserta MSIB tidak boleh mendapatkan double funding dari dana pemerintah. Oleh karena itu, jika Mahasiswa sudah mendapat beasiswa untuk program lain dari pemerintah, maka besaran bantuan biaya hidup yang akan diterima disesuaikan dengan cara mengurangkan nominal bantuan biaya hidup dengan besaran beasiswa mahasiswa tersebut."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "kendala_pencairan",
+      "patterns": [
+        "Saya ada kendala dalam pencairan dana",
+        "Bagaimana cara mengatasi keterlambatan dalam pencairan?",
+        "Kenapa uang bantuan sampe sekarang belum sampai ya?"
+      ],
+      "responses": [
+        "Jika kamu mengalami kendala dalam pencairan bantuan biaya, Kamu bisa ke link berikut yaa: https://pusatinformasi.kampusmerdeka.kemdikbud.go.id/hc/en-us/articles/6479883811353-Kendala-Umum-Dalam-Proses-Pencairan-Dana "
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "aktivitas_sudah_mendaftar",
+      "patterns": [
+        "Apa yang dilakukan jika sudah mendaftar?",
+        "Saya sudah daftar msib sekarang tinggal apa?"
+      ],
+      "responses": [
+        "Kamu tinggal menunggu feedback dari mitra yang kamu sudah daftar, Made saranin kamu juga sembari melihat atau mendaftar di mitra yang lain yaa :D "
+      ],
+      "context": [""]
+    }
+  ]
+}
